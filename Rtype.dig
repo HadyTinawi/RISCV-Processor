@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>2</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>Comparator</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>r-type</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>7</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-1240" y="-3500"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Comparator</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>3</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-1120" y="-3420"/>
+    </visualElement>
+    <visualElement>
+      <elementName>And</elementName>
+      <elementAttributes>
+        <entry>
+          <string>wideShape</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Inputs</string>
+          <int>3</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-900" y="-3480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>iw-funct3</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>3</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-1200" y="-3420"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>funct3</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>3</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-1280" y="-3380"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>iw-opcode</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>7</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-1320" y="-3500"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>opcode</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>7</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-1400" y="-3460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>eq</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-720" y="-3460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Comparator</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>r-type</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>7</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-1120" y="-3300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>iw-funct7</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>7</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-1200" y="-3300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>funct7</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>7</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-1280" y="-3260"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="-820" y="-3460"/>
+      <p2 x="-720" y="-3460"/>
+    </wire>
+    <wire>
+      <p1 x="-1400" y="-3460"/>
+      <p2 x="-1260" y="-3460"/>
+    </wire>
+    <wire>
+      <p1 x="-1000" y="-3460"/>
+      <p2 x="-900" y="-3460"/>
+    </wire>
+    <wire>
+      <p1 x="-1280" y="-3380"/>
+      <p2 x="-1140" y="-3380"/>
+    </wire>
+    <wire>
+      <p1 x="-1200" y="-3300"/>
+      <p2 x="-1120" y="-3300"/>
+    </wire>
+    <wire>
+      <p1 x="-1260" y="-3480"/>
+      <p2 x="-1240" y="-3480"/>
+    </wire>
+    <wire>
+      <p1 x="-1180" y="-3480"/>
+      <p2 x="-900" y="-3480"/>
+    </wire>
+    <wire>
+      <p1 x="-1140" y="-3400"/>
+      <p2 x="-1120" y="-3400"/>
+    </wire>
+    <wire>
+      <p1 x="-1060" y="-3400"/>
+      <p2 x="-1000" y="-3400"/>
+    </wire>
+    <wire>
+      <p1 x="-1320" y="-3500"/>
+      <p2 x="-1240" y="-3500"/>
+    </wire>
+    <wire>
+      <p1 x="-1200" y="-3420"/>
+      <p2 x="-1120" y="-3420"/>
+    </wire>
+    <wire>
+      <p1 x="-1280" y="-3260"/>
+      <p2 x="-1140" y="-3260"/>
+    </wire>
+    <wire>
+      <p1 x="-1140" y="-3280"/>
+      <p2 x="-1120" y="-3280"/>
+    </wire>
+    <wire>
+      <p1 x="-1060" y="-3280"/>
+      <p2 x="-980" y="-3280"/>
+    </wire>
+    <wire>
+      <p1 x="-980" y="-3440"/>
+      <p2 x="-900" y="-3440"/>
+    </wire>
+    <wire>
+      <p1 x="-1140" y="-3400"/>
+      <p2 x="-1140" y="-3380"/>
+    </wire>
+    <wire>
+      <p1 x="-1140" y="-3280"/>
+      <p2 x="-1140" y="-3260"/>
+    </wire>
+    <wire>
+      <p1 x="-980" y="-3440"/>
+      <p2 x="-980" y="-3280"/>
+    </wire>
+    <wire>
+      <p1 x="-1000" y="-3460"/>
+      <p2 x="-1000" y="-3400"/>
+    </wire>
+    <wire>
+      <p1 x="-1260" y="-3480"/>
+      <p2 x="-1260" y="-3460"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
